@@ -5,7 +5,7 @@ import { InputBar } from './components/InputBar';
 import { TodoList } from './components/TodoList';
 import { ListItem } from './components/ListItem';
 import { EditModal } from './components/EditModal';
-import { ToDoSpinner } from './components/ToDoSpinner';
+import { TodoSpinner } from './components/TodoSpinner';
 import styled from 'styled-components';
 
 export default function App() {
@@ -79,7 +79,7 @@ export default function App() {
           setDone={setDoneList}
         />
       )}
-      {todoLoading && <ToDoSpinner />}
+      {todoLoading && <TodoSpinner />}
     </TodoWrap>
   );
 }
