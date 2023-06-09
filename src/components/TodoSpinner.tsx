@@ -1,14 +1,12 @@
 import styled from 'styled-components';
 
-export const ToDoSpinner: React.FC = () => {
+export const TodoSpinner: React.FC = () => {
   return (
     <SpinnerWrap>
       <div className="spinner"></div>
     </SpinnerWrap>
   );
 };
-
-export default ToDoSpinner;
 
 const SpinnerWrap = styled.div`
   width: 100%;

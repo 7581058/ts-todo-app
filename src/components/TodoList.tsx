@@ -52,6 +52,7 @@ export const TodoList: React.FC<Iprops> = ({
             {donelist && <MdOutlineExpandCircleDown />}
           </div>
           {listLabel && <div>{listLabel}</div>}
+          <div className="todo-left">({todoList.length})</div>
           {removebutton && (
             <RemoveButton onClick={handleRemoveAll}>
               완료 전체 삭제
