@@ -4,6 +4,10 @@
 
 2023.06.09
 
+### 배포 링크
+
+https://mellifluous-tartufo-ca7686.netlify.app/
+
 ### 스택
 
 config  
