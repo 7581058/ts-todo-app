@@ -32,3 +32,5 @@ deployment
 - 완료된 할 일 전체 삭제
 
 ### 화면
+
+![](https://github.com/7581058/images/blob/main/react-ts-todo/screenshot.png?raw=true)
