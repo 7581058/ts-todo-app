@@ -17,7 +17,7 @@ export const TodoList: React.FC<Iprops> = ({
 }) => {
   const handleSetTodoList = async (
     newState: Todo[],
-    sortable: Sortable | null,
+    _sortable: Sortable | null,
     store: Store
   ) => {
     if (!store.dragging) return;
